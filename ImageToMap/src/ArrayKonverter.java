@@ -81,9 +81,9 @@ public class ArrayKonverter {
 		            col++;
 	            } 
 	            else {
-	            	result[row][col] = argb;
+	            	result[row][col] = 1;
 		            col++;
-		            System.out.println("Ubekannte Farbe");
+		            
 		            
 	            }
 	            
