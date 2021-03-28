@@ -4,7 +4,7 @@ import javax.imageio.*;
 
 public class ByteArrayConversion {
 	 public static void main(String[] args) throws Exception {
-	      BufferedImage image = ImageIO.read(new File("sample3.bmp"));
+	      BufferedImage image = ImageIO.read(new File("sample3.bmp")); //To-Do: Muss es eine monochromatische BMP sein?
 	      ByteArrayOutputStream output = new ByteArrayOutputStream();
 	      ImageIO.write(image, "jpg", output );
 	      byte [] data = output.toByteArray();
